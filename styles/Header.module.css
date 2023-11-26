@@ -1,0 +1,38 @@
+.container {
+    width: 400px;
+    border-radius: 5px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+    margin: 30px auto;
+    box-shadow: -1px 5px 16px -4px rgba(0,0,0,0.32);
+}
+.top {
+    width:100%;
+    padding: 20px 0;
+    text-align:center;
+    background-color: #f8f8f7;
+    border-radius: 5px;
+}
+.top h1 {
+    color:#141E46;
+}
+.topLine{
+    display: inline-block;
+    width: 220px;
+    padding: 1px 100px;
+    background-color: #141E46;
+    border-radius:2px;
+}
+.top p {
+    color: #141E46;
+    margin: 10px 0 0;
+    letter-spacing: 3px;
+}
+
+
+
+
+
+

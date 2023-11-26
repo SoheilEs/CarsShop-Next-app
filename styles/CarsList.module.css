@@ -1,0 +1,33 @@
+.container {
+    max-width: 1200px;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+.backBtn {
+    display : flex;
+    align-items:center;
+    background-color: #F0F0F0;
+    width:100px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin : 20px;
+    cursor : pointer;
+    transition: all 0.2s ease;
+    border : 2px solid gray;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.backBtn p {
+    margin-left:10px;
+    font-weight:bold;
+}
+.backBtn:hover{
+    background-color: #42d8c9;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin : 20px 0;
+}

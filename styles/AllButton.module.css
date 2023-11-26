@@ -1,0 +1,23 @@
+.container {
+    width:400px;
+    margin:50px auto;
+    border: 1px solid #213555;
+    border-radius: 5px;
+}
+.container a {
+    width:100%;
+    display:block;
+    text-align:center;
+    padding:10px 0;
+    transition: all 0.3s ease;
+}
+.container a:hover{
+    background-color:#213555;
+    color: #fff;
+}
+
+@media(max-width:600px){
+    .container{
+        width:320px;
+    }
+}

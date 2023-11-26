@@ -1,0 +1,39 @@
+.container {
+    width:400px;
+    display:flex;
+    justify-content:space-between;
+    margin:50px auto;
+    background-color: #F5F5F5;
+    color: #213555;
+    padding:10px;
+    border-radius:5px;
+    box-shadow: rgba(92, 93, 93, 0.2) 0px 8px 24px;
+}
+.container div {
+    width:100px;
+    border : 1px solid gray;
+    text-align:center;
+    padding: 5px;
+    margin:5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.container div p {
+    margin-top : 5px;
+    margin-bottom:5px;
+}
+.container div:hover {
+    box-shadow: rgba(63, 64, 65, 0.2) 0px 8px 24px;
+}
+
+@media (max-width: 600px) {
+    .container{
+        width:320px;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+    .container div {
+        margin:20px;
+    }
+}
